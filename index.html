@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Charity Website Using HTML and CSS</title>
+ 
+  <link rel="stylesheet" href="style.css" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
+  <link rel="shortcut icon" href="charity-images/favicon.png" />
+
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+
+  
+  <header>
+    <nav>
+      <img src="charity-images/logo-regular-free-img.png" alt="logo" />
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#what">What we do</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#donation">Donation</a></li>
+      </ul>
+    </nav>
+
+   
+    <div class="head" id="home">
+      <h3>Together, we can</h3>
+      <h1>Build a world where <br> all youth are safe</h1>
+      <button>Read More</button>
+    </div>
+  </header>
+
+
+  <section class="about" id="about">
+    <div class="about-left-side">
+      <h1>Our Impact</h1>
+      <h3>We’ve worked on improving the lives of <br> over 25,000 young people through direct practice.</h3>
+      <p>
+        Young people from different backgrounds have a huge impact on us and all our activities.
+        They highlight those parts of the society that are broken, so we can help them in all possible ways
+        to regain hope and flourish in life.
+      </p>
+      <button>Read More</button>
+    </div>
+    <div class="about-right-side">
+      <img src="charity-images/about-01-free-img.jpg" alt="about-img" />
+    </div>
+  </section>
+
+  
+  <section class="what" id="what">
+    <h1>What we do</h1>
+    <hr />
+    <p>
+      <span>W</span>e plan and support amazing projects that help change the lives of disadvantaged children and young people from across different regions of the world.
+    </p>
+    <button>Read More</button>
+    <div class="cards">
+      <div class="box boxa">
+        <h2>We Find & Fund</h2>
+        <h5>We are in search of opportunities to help as many youth as possible. We approach and fund all those who are in need.</h5>
+        <hr />
+      </div>
+      <div class="box boxb">
+        <h2>We Provide Care</h2>
+        <h5>We are in search of opportunities to help as many youth as possible. We approach and fund all those who are in need.</h5>
+        <hr />
+      </div>
+      <div class="box boxc">
+        <h2>We Educate</h2>
+        <h5>We are in search of opportunities to help as many youth as possible. We approach and fund all those who are in need.</h5>
+        <hr />
+      </div>
+      <div class="box boxd">
+        <h2>We Employ</h2>
+        <h5>We are in search of opportunities to help as many youth as possible. We approach and fund all those who are in need.</h5>
+        <hr />
+      </div>
+    </div>
+    <div class="images">
+      <img src="charity-images/gallery-001-free-img.jpg" alt="img" />
+      <img src="charity-images/gallery-002-free-img.jpg" alt="img" />
+      <img src="charity-images/gallery-003-free-img.jpg" alt="img" />
+    </div>
+  </section>
+
+  <section class="action">
+    <h3>GIVE US A HAND</h3>
+    <h1>Support us and change the course of a <br>child’s life today!</h1>
+    <button>Donate</button>
+  </section>
+
+ 
+  <section class="contact" id="contact">
+    <div class="contact-left-side">
+      <h2>Stay up to date</h2>
+      <input type="email" placeholder="Email Address" /> <br><br>
+      <button>SUBMIT</button>
+      <h1>GIVE US A HAND</h1>
+      <p>Copyright © 2023 Charity</p>
+    </div>
+    <div class="contact-right-side">
+      <h3>Contact</h3>
+      <h4>BTM Bangalore</h4>
+      <p>080-1234567891</p>
+      <div class="icons">
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section id="donation" style="padding: 50px 20px; background: #fff; text-align: center; max-width: 900px; margin: 50px auto; border-radius: 10px; box-shadow: 0px 4px 15px rgba(0,0,0,0.1);">
+    <div style="max-width: 800px; margin: 0 auto;">
+      <h2 style="font-size: 2em; color: #2c3e50; margin-bottom: 10px;">Your Donation Makes a Difference</h2>
+      <p style="font-size: 1.1em; line-height: 1.6; margin-bottom: 30px; color: #555;">
+        Together, we can provide food, shelter, and education to those in need. Every contribution helps create a brighter future.
+      </p>
+
+      <!-- Donation Video -->
+      <video width="800" height="450" autoplay loop muted playsinline style="border-radius: 8px; margin-bottom: 30px; box-shadow: 0px 4px 12px rgba(0,0,0,0.2); max-width: 100%;">
+        <source src="charity-images/vecteezy_donate-to-charity_50022671.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+    
+<button type="button" onclick="donate.html">Donate Now</button>
+    </div>
+  </section>
+
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+      speed: 1000,
+      speedAsDuration: true
+    });
+  </script>
+
+</body>
+</html>
